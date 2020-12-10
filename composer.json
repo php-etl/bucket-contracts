@@ -1,0 +1,33 @@
+{
+    "name": "php-etl/bucket-contracts",
+    "description": "This library describes contracts for the data-interchange buckets.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Kiboko SAS",
+            "homepage": "http://kiboko.fr"
+        },
+        {
+            "name": "Grégory Planchat",
+            "email": "gregory@kiboko.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kiboko\\Contract\\ETL\\Pipeline\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "0.12.x-dev"
+    }
+}
