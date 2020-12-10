@@ -8,6 +8,7 @@ jobs:
     strategy:
       matrix:
         php-version: [ "8.0", "8.1" ]
+        phpstan-level: [ 3, 5, 7, 8 ]
 
     steps:
 
@@ -24,6 +25,4 @@ jobs:
         run: composer install --prefer-dist --no-progress
 
       - name: PHPStan
-        uses: chindit/actions-phpstan@master
-        with:
-          arguments: 'src/ --level=8'
+        run: vendor/bin/phpstan analyze --level=${{ matrix.phpstan-level }} src
