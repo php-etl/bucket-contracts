@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiboko\Component\ETL\Contracts;
+namespace Kiboko\Contracts\ETL\Bucket;
 
 interface RejectionResultBucketInterface extends ResultBucketInterface
 {
