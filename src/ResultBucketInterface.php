@@ -1,6 +1,6 @@
 <?php
 
-namespace Kiboko\Contracts\ETL\Bucket;
+namespace Kiboko\Contract\ETL\Bucket;
 
 interface ResultBucketInterface
 {
