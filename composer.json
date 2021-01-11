@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kiboko\\Contract\\ETL\\Bucket\\": "src/"
+            "Kiboko\\Contract\\Bucket\\": "src/"
         }
     },
     "extra": {
