@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4edc225b842955bc51aa8e351c2a5f5f",
+    "content-hash": "d129f0f65f343d14fd8bb7b503de08e2",
     "packages": [],
     "packages-dev": [
         {
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ba42293d586a75421f0a103098855e35f25d36d6"
+                "reference": "54073fba582f2a0aea91950f775086827070b428"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ba42293d586a75421f0a103098855e35f25d36d6",
-                "reference": "ba42293d586a75421f0a103098855e35f25d36d6",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/54073fba582f2a0aea91950f775086827070b428",
+                "reference": "54073fba582f2a0aea91950f775086827070b428",
                 "shasum": ""
             },
             "require": {
@@ -58,6 +58,10 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                },
+                {
                     "url": "https://www.patreon.com/phpstan",
                     "type": "patreon"
                 },
@@ -66,7 +70,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-12-09T15:53:04+00:00"
+            "time": "2021-06-28T20:00:06+00:00"
         }
     ],
     "aliases": [],
@@ -74,7 +78,7 @@
     "stability-flags": {
         "phpstan/phpstan": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.0"

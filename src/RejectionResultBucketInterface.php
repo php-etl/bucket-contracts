@@ -2,8 +2,12 @@
 
 namespace Kiboko\Contract\Bucket;
 
+/**
+ * @template Type
+ * @extends ResultBucketInterface<Type>
+ */
 interface RejectionResultBucketInterface extends ResultBucketInterface
 {
-    /** @return iterable<array|object> */
+    /** @return iterable<Type> */
     public function walkRejection(): iterable;
 }

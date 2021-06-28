@@ -4,13 +4,14 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Kiboko SAS",
             "homepage": "http://kiboko.fr"
         },
         {
-            "name": "Grégory Planchat",
+            "name": "Grégory Planchatn rules",
             "email": "gregory@kiboko.fr"
         }
     ],
