@@ -12,7 +12,9 @@ namespace Kiboko\Contract\Bucket;
 interface RejectionResultBucketInterface extends ResultBucketInterface
 {
     public function reason(): ?string;
+
     public function exception(): ?\Throwable;
+
     /** @return iterable<Type> */
     public function walkRejection(): iterable;
 }
