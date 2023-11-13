@@ -15,7 +15,7 @@ interface RejectionResultBucketInterface extends ResultBucketInterface
     public function reasons(): ?array;
 
     /** @return list<\Throwable>|null */
-    public function exceptions(): ?iterable;
+    public function exceptions(): ?array;
 
     /** @return iterable<Type> */
     public function walkRejection(): iterable;
